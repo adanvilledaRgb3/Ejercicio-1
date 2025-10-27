@@ -52,6 +52,11 @@ Consultas
 ```
    #### Salida
    TODO listado de atributos y tuplas
+| placa   | pasajero | modelo  | anio |
+|---------|----------|---------|------|
+| HJC125E |        3 | Corolla | 2023 |
+| HJC133E |        5 | Corolla | 2024 |
+| HJC223E |        3 | Corolla | 2021 |
    
 3. Listado de vehículos cuyo año de inicio de operación sea menor o igual a 2023, incluye los datos de marca, modelo y kilometraje.
    #### Solución
@@ -80,8 +85,15 @@ Consultas
 ```
    #### Salida
    TODO listado de atributos y tuplas
+| marca  | modelo  | kilometraje |
+|--------|---------|-------------|
+| Toyota | Corolla | 67921       |
+| Nissan | Versa   | 63456       |
+| Nissan | Versa   | 83456       |
+| Honda  | City    | 49832       |
+| Toyota | Corolla | 97921       |
 
-6. Listado de vehículos que corresponde verificación en septiembre-octubre, incluye los datos de marca, municipio y placa.
+5. Listado de vehículos que corresponde verificación en septiembre-octubre, incluye los datos de marca, municipio y placa.
    #### Solución
    TODO script SQL
 ```sql
@@ -94,3 +106,12 @@ Consultas
 ```
    #### Salida
    TODO listado de atributos y tuplas
+| marca  | municipio  | placa   |
+|--------|------------|---------|
+| Nissan | Pachuca    | HJC123E |
+| Honda  | Tulancingo | HJC124E |
+| Honda  | Tulancingo | HJC133E |
+| Toyota | Actopan    | HJC133E |
+| Nissan | Pachuca    | HJC223E |
+| Honda  | Tulancingo | HJC223E |
+| Toyota | Actopan    | HJC223E |
